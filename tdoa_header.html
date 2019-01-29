@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="tdoa_stylesheet.css">
+	<?php if(isset($_SESSION['user_id']) && $_SESSION['lively_mode'] == 'T') {echo "<link rel = 'stylesheet' type = 'text/css' href = 'tdoa_stylesheet_lively.css'>";} ?>
+	<?php echo "<title>" . $page_title . "</title>"; ?>
+</head>
+
+<body>
+	<header>
+		<h1 class = "header_title">The Democracy of Art</h1>
+		<h2 class = "header_subheading">Creativity: meet criticism!<h2>
+	</header>
