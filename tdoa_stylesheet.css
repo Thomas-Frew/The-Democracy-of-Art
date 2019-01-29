@@ -65,8 +65,6 @@ a:hover, a:active, a:visited {
 	font-family: inherit;
 	color: #ffffff;
 	border: none;
-	outline: none;
-	margin-bottom: -5px;
 }
 
 .dropdown_links {
@@ -117,7 +115,6 @@ a:hover, a:active, a:visited {
 	font-family: inherit;
 	color: #ffffff;
 	border: none;
-	outline: none;
 }
 
 /* Additional Classes */
